@@ -1,0 +1,201 @@
+  <!DOCTYPE html>
+<html lang="en">
+<title>Springdale Primary School</title>
+<head>
+      <style>
+        body {
+            background-image: url("banner-5.jpg");
+            opacity: 1.0;
+        }
+        .container {
+          display: flex;
+          font-size: 10px;
+          color: white;
+          font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+          flex-direction: column;
+          align-content: center;
+          }
+        #heading {
+          display: flex;
+          justify-content: start;
+        }
+        .hero-container{
+          display: flex;
+          color: whitesmoke;
+          flex-direction: column;
+          align-items: flex-start;
+          position: relative; 
+          height: 100vh;
+          width: 100%;
+        }
+        .Vision-mission {
+          text-align: center;
+          background-color: white;
+          font-family: "Poppins", sans-serif;
+          } 
+        .Vision-mission h3 {
+          font-size: 80px;
+          color: maroon;
+          font-family: "Poppins", sans-serif;
+        }
+        .container{
+          display: flex;
+          color: black;
+          font-size: 15px;
+          font-family: "Poppins", sans-serif;
+          }
+        .box{
+          display: flex;
+          color: black;
+          font-size: 15px;
+        }
+        .p{
+          display: flex;
+          font-size: 15px;
+        }
+
+        /*----- FOOTER -----*/
+
+        #main-footer {
+        background-color: maroon;
+        position: relative;
+        width: 100%;
+        height: 100px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        }
+        #main-footer p {
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          font-size: 18px;
+          color:#fff;
+          text-align: center;
+          padding: 30px;
+        }
+    </style>
+<!-- Required tags for the school -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  </head>
+<body>
+    <nav class="navbar navbar-expand-sm bg-danger navbar-dark justify-content-end">
+        <div class="#container">
+          <button class="navbar-toggler" data-toggle="collapse" data-target="#mainNav">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mainNav">
+            <div class="navbar-nav">
+              <a class="nav-item nav-link" href="index.html">Home</a>
+              <a class="nav-item nav-link active" href="About_Us.html">About Us</a>
+              <a class="nav-item nav-link" href="events1.html">Events</a>
+              <a class="nav-item nav-link" href="Log-in.html">Log-in</a>
+            </div>
+          </div>
+        </div>
+       </nav>
+      <nav class="navbar navbar-expand-sm bg-danger navbar-dark justify-content-center" style="color: whitesmoke;">
+        <div class="header">
+          <h1>About Us | Contact</h1>
+        </div>
+        </nav>
+        <div class="container text-muted">
+            <!--cards-->
+            <div class="row py-5">
+              <div class="col-md-6 col-lg-3">
+                <div class="card">
+                  <div class="card-block">
+                    <h3 class="card-title" style="padding: 10px;">Contact Details:</h3>
+                     <fieldset>
+                      <form action="/action_page.php" style="padding: 10px;">
+                        <label for="fname">First name:</label><br>
+                        <input type="text" id="fname" placeholder="First name"><br>
+                        <label for="lname">Last name:</label><br>
+                        <input type="text" id="lname" placeholder="Last name"><br>
+                        <label for="cnumber">Contact number:</label><br>
+                        <input type="text" id="cnumber" placeholder="0123456789"><br><br>
+                        <input type="submit" value="Submit">
+                      </form>
+                     </fieldset>
+                  </div>
+                </div>
+              </div>
+                <div class="col-md-6 col-lg-3">
+                  <div class="card">
+                    <div class="card-block">
+                      <h3 class="card-title" style="padding: 10px;">Get in touch with us:</h3>
+                      <p style="padding: 10px;">You can email the principal directly on the form provided, please provide enough information.</p>
+                    </div>
+                  </div>
+            </div>
+              <div class="col-md-6 col-lg-3">
+                <div class="card">
+                  <div class="card-block">
+                    <h3 class="card-title" style="padding: 10px;">School Location:</h3>
+                    <p style="padding: 10px;">Physical Address: Merrydale Avenue
+                      Suburb: LENTEGEUR<br>
+                      Town/City: MITCHELLS PLAIN<br>
+                      Local Municipality: CITY OF CAPE TOWN<br>
+                      District: METRO SOUTH</p>
+                  </div>
+                </div>
+                </div>
+                  <div class="col-md-6 col-lg-3">
+                    <div class="card">
+                      <div class="card-block">
+                        <h3 class="card-title" style="padding: 10px;">Admission Requirements:</h3>
+                        <p style="padding: 10px;">An entrance exam may be mandatory for certain prestigious private schools. Applicant with a bursary or scholarship may enjoy preference.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+       <div>
+        <h2 class="display-4 text-center py-5 my-4 text-white">Meet the Team</h2>
+
+        <nav class="nav justify-content-center nav-pills flex-column flex-md-row">
+          <a class="nav-link active" href="#aphiwe" data-toggle="tab">Aphiwe</a>
+          <a class="nav-link" href="#ashura" data-toggle="tab">Ashura</a>
+          <a class="nav-link" href="#layola" data-toggle="tab">Layola</a>
+          <a class="nav-link" href="#mdumiseni" data-toggle="tab">Mdumiseni</a>
+          <a class="nav-link" href="#tawfeeq" data-toggle="tab">Tawfeeq</a>
+        </nav>
+
+        <div class="tab-content py-5">
+          <div class="tab-pane active text-center text-white" id="aphiwe">
+            <h3>Aphiwe</h3>
+            <p text-center>HTML and CSS Designer</p>
+          </div>
+          <div class="tab-pane text-center text-white" id="ashura">
+            <h3>Ashura</h3>
+            <p>Photograph and Content Researcher</p>
+          </div>
+          <div class="tab-pane text-center text-white" id="layola">
+            <h3>Layola</h3>
+            <p>CSS Lead Designer</p>
+          </div>
+          <div class="tab-pane text-center text-white" id="mdumiseni">
+            <h3>Mdumiseni</h3>
+            <p>Team Lead and HTML Designer</p>
+          </div>
+          <div class="tab-pane text-center text-white" id="tawfeeq">
+            <h3>Tawfeeq</h3>
+            <p>CSS and HTML Designer</p>
+          </div>
+       </div>
+       <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script>
+      $(function () {
+        $('[data-toggle="tooltip"]').tooltip();
+      });
+    </script>
+
+    <!----- FOOTER ----->
+
+    <footer id="main-footer">
+      <p>Copyright &copy; 2021, Springdale primary school</p>
+    </footer>
+</body>
